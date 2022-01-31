@@ -1,0 +1,192 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+    height: 92px;
+    background-color: #CF2B2B;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+h1 {
+    font-family: 'Righteous', cursive;
+    margin-left: 21px;
+    font-size: 44px;
+    color: #FFFFFF;
+}
+header p {
+    margin-left: 21px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+main {
+    margin-top: 92px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 115px;
+    background-color: #e5e5e5;
+}
+.prato, .bebida, .sobremesa {
+    margin-left: 19px;
+}
+.pratos, .bebidas, .sobremesas {
+    margin-top: 17px;
+    overflow: scroll;
+    display: flex;
+}
+.opcoes {
+    width: 144px;
+    height: 185px;
+    border-radius: 9px;
+    padding: 13px 9px 8px 9px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    margin-right: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: relative;
+}
+.opcoes svg {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    top: 185px;
+    left: 140px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+.selecionado {
+    border: 5px solid #32B72F;
+}
+.selecionado svg {
+    background-color: #32B72F;
+}
+.opcoes img {
+    width: 144px;
+    border-radius: 4px;
+}
+.titulo {
+    font-size: 16px;
+    font-weight: bold;
+}
+.descricao {
+    font-size: 14px;
+}
+.preco {
+    font-size: 16px;
+}
+.texto-inicio {
+    font-family: 'Righteous', cursive;
+    margin-top: 31px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    
+    height: 92px;
+    background-color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao-nao-disponivel {
+    width: 364px;
+    height: 61px;
+    border-radius: 30px;
+    background-color: #CBCBCB;
+
+    font-size: 20px;
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.botao-disponivel {
+    width: 364px;
+    height: 61px;
+    border-radius: 30px;
+    background-color: #32B72F;;
+
+    font-size: 20px;
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fundoConfirmarPedido {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.confirmarPedido {
+    width: 327px;
+    height: 332px;
+    border-radius: 9px;
+    background: #50D074;
+
+    padding: 21px 25px 0px 25px;
+    font-size: 22px;
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.confirmarPreco {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.botaoTudoCerto{
+    width: 330px;
+    height: 52px;
+    border-radius: 26px;
+    background-color: #ffffff;
+    color: #50D074;
+    margin-top: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.confirmeSeuPedido {
+    margin-bottom: 28px;
+}
+.botaoCancelar{
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
