@@ -19,78 +19,78 @@
     <main>
         <div class="prato">
             <p class="texto-inicio">Primeiro, seu prato</p>
-            <div class="pratos">
-                <div class="prato_1 opcoes" onclick="selecionarPrato('prato_1')">
+            <div class="pratos" data-identifier="dishes">
+                <div class="prato_1 opcoes" onclick="selecionarPrato('prato_1')" data-identifier="food-option">
                     <img src="img/prato_1.png">
-                    <p class="titulo">Hambúrguer</p>
+                    <p class="titulo" data-identifier="food-title">Hambúrguer</p>
                     <p class="descricao">Hambúrguer delicioso com fritas</p>
-                    <p class="preco">R$ 25,90</p>
+                    <p class="preco" data-identifier="food-price">R$ 25,90</p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Checkmark</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M416 128L192 384l-96-96"/></svg>
                 </div>
-                <div class="prato_2 opcoes" onclick="selecionarPrato('prato_2')">
+                <div class="prato_2 opcoes" onclick="selecionarPrato('prato_2')" data-identifier="food-option">
                     <img src="img/prato_2.png">
-                    <p class="titulo">Pizza</p>
+                    <p class="titulo" data-identifier="food-title">Pizza</p>
                     <p class="descricao">Pizza de Calabresa</p>
-                    <p class="preco">R$ 19,90</p>
+                    <p class="preco" data-identifier="food-price">R$ 19,90</p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Checkmark</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M416 128L192 384l-96-96"/></svg>
                 </div>
-                <div class="prato_3 opcoes" onclick="selecionarPrato('prato_3')">
+                <div class="prato_3 opcoes" onclick="selecionarPrato('prato_3')" data-identifier="food-option">
                     <img src="img/prato_3.png">
-                    <p class="titulo">Prato Executivo</p>
+                    <p class="titulo" data-identifier="food-title">Prato Executivo</p>
                     <p class="descricao">Frango, batata e um pouco de salada</p>
-                    <p class="preco">R$ 14,90</p>
+                    <p class="preco" data-identifier="food-price">R$ 14,90</p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Checkmark</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M416 128L192 384l-96-96"/></svg>
                 </div>
             </div>
         </div>
         <div class="bebida">
             <p class="texto-inicio">Agora, sua bebida</p>
-            <div class="bebidas">
-                <div class="bebida_1 opcoes" onclick="selecionarBebida('bebida_1')">
+            <div class="bebidas" data-identifier="drinks">
+                <div class="bebida_1 opcoes" onclick="selecionarBebida('bebida_1')" data-identifier="food-option">
                     <img src="img/bebida_1.png">
-                    <p class="titulo">Coquinha gelada</p>
+                    <p class="titulo" data-identifier="food-title">Coquinha gelada</p>
                     <p class="descricao">Lata 350ml</p>
-                    <p class="preco">R$ 4,90</p>
+                    <p class="preco" data-identifier="food-price">R$ 4,90</p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Checkmark</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M416 128L192 384l-96-96"/></svg>
                 </div>
-                <div class="bebida_2 opcoes" onclick="selecionarBebida('bebida_2')">
+                <div class="bebida_2 opcoes" onclick="selecionarBebida('bebida_2')" data-identifier="food-option">
                     <img src="img/bebida_2.png">
-                    <p class="titulo">Suco de Laranja</p>
+                    <p class="titulo" data-identifier="food-title">Suco de Laranja</p>
                     <p class="descricao">Suco da Fruta 300ml</p>
-                    <p class="preco">R$ 7,90</p>
+                    <p class="preco" data-identifier="food-price">R$ 7,90</p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Checkmark</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M416 128L192 384l-96-96"/></svg>
                 </div>
-                <div class="bebida_3 opcoes" onclick="selecionarBebida('bebida_3')">
+                <div class="bebida_3 opcoes" onclick="selecionarBebida('bebida_3')" data-identifier="food-option">
                     <img src="img/bebida_3.png">
-                    <p class="titulo">Cerveja</p>
+                    <p class="titulo" data-identifier="food-title">Cerveja</p>
                     <p class="descricao">Long Neck 330ml</p>
-                    <p class="preco">R$ 9,90</p>
+                    <p class="preco" data-identifier="food-price">R$ 9,90</p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Checkmark</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M416 128L192 384l-96-96"/></svg>
                 </div>
             </div>
         </div>
         <div class="sobremesa">
             <p class="texto-inicio">Por fim, sua sobremesa</p>
-            <div class="sobremesas">
-                <div class="sobremesa_1 opcoes" onclick="selecionarSobremesa('sobremesa_1')">
+            <div class="sobremesas" data-identifier="desserts">
+                <div class="sobremesa_1 opcoes" onclick="selecionarSobremesa('sobremesa_1')" data-identifier="food-option">
                     <img src="img/sobremesa_1.png">
-                    <p class="titulo">Brigadeiro</p>
+                    <p class="titulo" data-identifier="food-title">Brigadeiro</p>
                     <p class="descricao">5 unidades</p>
-                    <p class="preco">R$ 6,90</p>
+                    <p class="preco" data-identifier="food-price">R$ 6,90</p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Checkmark</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M416 128L192 384l-96-96"/></svg>
                 </div>
-                <div class="sobremesa_2 opcoes" onclick="selecionarSobremesa('sobremesa_2')">
+                <div class="sobremesa_2 opcoes" onclick="selecionarSobremesa('sobremesa_2')" data-identifier="food-option">
                     <img src="img/sobremesa_2.png">
-                    <p class="titulo">Pudim</p>
+                    <p class="titulo" data-identifier="food-title">Pudim</p>
                     <p class="descricao">Apenas pudim</p>
-                    <p class="preco">R$ 7,90</p>
+                    <p class="preco" data-identifier="food-price">R$ 7,90</p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Checkmark</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M416 128L192 384l-96-96"/></svg>
                 </div>
-                <div class="sobremesa_3 opcoes" onclick="selecionarSobremesa('sobremesa_3')">
+                <div class="sobremesa_3 opcoes" onclick="selecionarSobremesa('sobremesa_3')" data-identifier="food-option">
                     <img src="img/sobremesa_3.png">
-                    <p class="titulo">Brownie</p>
+                    <p class="titulo" data-identifier="food-title">Brownie</p>
                     <p class="descricao">unidade</p>
-                    <p class="preco">R$ 5,90</p>
+                    <p class="preco" data-identifier="food-price">R$ 5,90</p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Checkmark</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M416 128L192 384l-96-96"/></svg>
                 </div>
             </div>
